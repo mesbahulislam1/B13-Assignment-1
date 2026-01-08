@@ -21,25 +21,21 @@
 .container {
   max-width: 1360px;
   margin: 0 auto;
-
 }
 
-.heading-titles{
-    text-align: center;
-    padding-bottom: 44px;
+.heading-titles {
+  text-align: center;
 }
-.heading-titles h2{
-    font-size: 48px;
-    font-weight: bold;
+.heading-titles h2 {
+  font-size: 48px;
+  font-weight: bold;
 }
-.heading-titles p{
-    color: #627382;
-    
+.heading-titles p {
+  color: #627382;
 }
 
 /* Common Class */
 /* Common Class */
-
 
 .header nav {
   display: flex;
@@ -78,8 +74,7 @@
   justify-content: center;
   gap: 32px;
 }
-.hero .hero-text .text{
-  
+.hero .hero-text .text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +82,7 @@
   gap: 16px;
 }
 
-.hero .hero-text h3{
+.hero .hero-text h3 {
   color: #469165;
   background-color: white;
   display: flex;
@@ -100,9 +95,7 @@
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 15px;
-
-} 
-
+}
 
 .hero .hero-text h1 {
   color: white;
@@ -135,98 +128,153 @@
 
 /* **************Hero Section ***************** */
 
+/* ******************Services Section ***************************/
 
+.services {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.services .heading-titles {
+  text-align: center;
+  padding-bottom: 44px;
+}
 
-
-
-
-
-
+.services_box {
+  display: flex;
+  gap: 24px;
+}
+.services_box .card {
+  box-shadow: 0px 0px 8px rgb(161, 160, 160);
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+.services_box .card * {
+  margin-bottom: 16px;
+}
+.services_box .card img {
+  background-color: #f95555;
+  padding: 10px;
+  border-radius: 50%;
+}
+.services_box .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+}
+.services_box .card p {
+  color: #627382;
+}
 
 /* ******************Services Section ***************************/
 
-.services{
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-.services_box{
-   display: flex;
-   gap: 24px;
-   
-    
-}
-.services_box .card{
-    box-shadow: 0px 0px 8px  rgb(161, 160, 160);
-    padding: 24px;
-    border-radius: 8px;
-    text-align: center;   
-}
-.services_box .card *{
-    margin-bottom: 16px;
-}
-.services_box .card img{
-    background-color: #F95555;
-    padding: 10px;
-    border-radius: 50%;
+/* ******************about Section ***************************/
 
-}
-.services_box .card h3{
-    font-size: 24px;
-    font-weight: 600;
-    color: #001931;
-}
-.services_box .card p{
-    color: #627382;
+.about-content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-
-
-
-
-/* ******************Services Section ***************************/
-
-
-
-
-
-
+.about-content .about-text * {
+  margin-bottom: 13px;
+}
+.about-content .about-text h3 {
+  color: #469165;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.about-content .about-text h1 {
+  font-size: 48px;
+  text-transform: capitalize;
+}
+.about-content .about-text p {
+  color: #001931;
+}
+.about-content .about-text .text-bottom {
+  margin-top: 30px;
+}
+.about-content .about-text .text-bottom p {
+  background: url("./assets/CheckCircle.png");
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 30px;
+}
 
 /* ******************about Section ***************************/
 
-.about-content{
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    justify-content: space-between;
+/* ******************contact Section ***************************/
+.access {
+  margin-top: 100px;
+}
+.access .container {
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+  border-radius: 12px;
+}
+.access-content .heading-titles h2 {
+  font-size: 40px;
+}
+.access-content .heading-titles * {
+  margin-bottom: 10px;
+}
+.access-content {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-
-.about-content .about-text *{
-    margin-bottom: 13px;
+.access-content button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
-.about-content .about-text  h3{
-    color: #469165;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-.about-content .about-text  h1{
-    font-size: 48px;
-    text-transform: capitalize;
-}
-.about-content .about-text  p{
-    color: #001931;
-}
-.about-content .about-text .text-bottom{
-    margin-top: 30px;
-}
-.about-content .about-text .text-bottom p{
-   background: url('./assets/CheckCircle.png');
-   background-repeat: no-repeat;
-   position: relative;
-   padding-left: 30px;
+.access-content p {
+  color: #627382;
+  text-align: center;
 }
 
+/* ******************contact Section ***************************/
 
-/* ******************about Section ***************************/
+/* ******************Footer Section ***************************/
 
+footer {
+  background-color: #001931;
+  padding-top: 100px;
+}
+footer .social a {
+  background-color: white;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 50%;
+  color: #001931;
+}
+footer .social h4 {
+  color: white;
+  font-size: 20px;
+}
+footer .social .social_link {
+  display: flex;
+  gap: 6px;
+  margin-top: 16px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-text p {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+
+  padding-bottom: 30px;
+}
+
+footer hr {
+  margin: 30px 0;
+}
