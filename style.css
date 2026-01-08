@@ -24,6 +24,19 @@
 
 }
 
+.heading-titles{
+    text-align: center;
+    padding-bottom: 44px;
+}
+.heading-titles h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.heading-titles p{
+    color: #627382;
+    
+}
+
 /* Common Class */
 /* Common Class */
 
@@ -121,3 +134,67 @@
 }
 
 /* **************Hero Section ***************** */
+
+
+
+
+
+
+
+
+
+/* ******************Services Section ***************************/
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.services_box{
+   display: flex;
+   gap: 24px;
+   
+    
+}
+.services_box .card{
+    box-shadow: 0px 0px 8px  rgb(161, 160, 160);
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;   
+}
+.services_box .card *{
+    margin-bottom: 16px;
+}
+.services_box .card img{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.services_box .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.services_box .card p{
+    color: #627382;
+}
+
+
+
+
+
+
+/* ******************Services Section ***************************/
+
+
+
+
+
+
+
+/* ******************about Section ***************************/
+
+
+
+/* ******************about Section ***************************/
+
