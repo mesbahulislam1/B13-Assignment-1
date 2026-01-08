@@ -277,4 +277,7 @@ footer .footer-text p {
 
 footer hr {
   margin: 30px 0;
+  border: none;
+  height: 1px;
+  background-color: #E5E7EB;
 }
