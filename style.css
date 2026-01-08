@@ -194,6 +194,38 @@
 
 /* ******************about Section ***************************/
 
+.about-content{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.about-content .about-text *{
+    margin-bottom: 13px;
+}
+.about-content .about-text  h3{
+    color: #469165;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.about-content .about-text  h1{
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.about-content .about-text  p{
+    color: #001931;
+}
+.about-content .about-text .text-bottom{
+    margin-top: 30px;
+}
+.about-content .about-text .text-bottom p{
+   background: url('./assets/CheckCircle.png');
+   background-repeat: no-repeat;
+   position: relative;
+   padding-left: 30px;
+}
 
 
 /* ******************about Section ***************************/
